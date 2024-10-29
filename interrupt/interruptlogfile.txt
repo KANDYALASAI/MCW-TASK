@@ -1,0 +1,3 @@
+[ 2398.724468] Interrupt Handler Unregistered for IRQ 11
+[ 2401.756489] Interrupt Handler Registered for IRQ 11
+[ 2435.480016] Interrupt Handler Unregistered for IRQ 11
