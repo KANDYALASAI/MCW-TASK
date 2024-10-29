@@ -1,0 +1,19 @@
+[ 2398.724468] Interrupt Handler Unregistered for IRQ 11
+[ 2401.756489] Interrupt Handler Registered for IRQ 11
+[ 2435.480016] Interrupt Handler Unregistered for IRQ 11
+[ 2596.729288] audit: type=1400 audit(1730180219.342:57): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/21759/usr/lib/snapd/snap-confine" pid=3514 comm="snap-confine" capability=12  capname="net_admin"
+[ 2596.730932] audit: type=1400 audit(1730180219.346:58): apparmor="DENIED" operation="capable" class="cap" profile="/snap/snapd/21759/usr/lib/snapd/snap-confine" pid=3514 comm="snap-confine" capability=38  capname="perfmon"
+[ 2597.115953] audit: type=1400 audit(1730180219.734:59): apparmor="DENIED" operation="open" class="file" profile="snap-update-ns.firefox" name="/usr/local/share/" pid=3540 comm="5" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+[ 2600.254137] audit: type=1326 audit(1730180222.870:60): auid=1000 uid=1000 gid=1000 ses=3 subj=snap.firefox.firefox pid=3514 comm="firefox" exe="/snap/firefox/5134/usr/lib/firefox/firefox" sig=0 arch=c000003e syscall=314 compat=0 ip=0x7f7bddbab88d code=0x50000
+[ 2608.615921] audit: type=1107 audit(1730180231.226:61): pid=618 uid=100 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.123" pid=3514 label="snap.firefox.firefox" peer_pid=3666 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=100 hostname=? addr=? terminal=?'
+[ 2608.669341] audit: type=1107 audit(1730180231.286:62): pid=618 uid=100 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/timedate1" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.123" pid=3514 label="snap.firefox.firefox" peer_pid=3666 peer_label="unconfined"
+                exe="/usr/bin/dbus-daemon" sauid=100 hostname=? addr=? terminal=?'
+[ 2716.639541] usb 2-1: new high-speed USB device number 7 using ehci-pci
+[ 2717.155923] usb 2-1: New USB device found, idVendor=2717, idProduct=ff40, bcdDevice= 4.04
+[ 2717.155934] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2717.155937] usb 2-1: Product: Redmi 9 Prime
+[ 2717.156360] usb 2-1: Manufacturer: Xiaomi
+[ 2717.156364] usb 2-1: SerialNumber: b3aad3860406
+[ 2763.464624] usbcore: registered new interface driver simple_usb_driver
+[ 2823.995122] usbcore: deregistering interface driver simple_usb_driver
